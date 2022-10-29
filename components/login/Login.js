@@ -1,11 +1,13 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View, Dimensions } from "react-native";
+import { Text, View } from "react-native";
 import styles from "./style";
-import Svg, { Image } from "react-native-svg";
+import Background from '../background/Background';
 
 const Login = () => {
 	return (
+    <Background>
 
+    </Background>
 	);
 };
 
