@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1f5a1c2-0d9a-4dbd-a91c-bdcebddd1222" name="Changes" comment="loginUI styles implementation" />
+    <list default="true" id="3c1d30c4-0ed1-4dca-903a-36ad825fb0c2" name="Changes" comment="Main Runnable">
+      <change afterPath="$PROJECT_DIR$/assets/login-background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/background/Background.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/login/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/login/style.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +26,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GnLHzhTKgPMNuTOZZwvCgLBU9a" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -32,19 +39,26 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Mern Projects/Bus Ticketing System/Mobile-Application/transport-system",
+    "last_opened_file_path": "D:/Mern Projects/Bus Ticketing System/Mobile-Application/transport-system/assets",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Mern Projects\Bus Ticketing System\Mobile-Application\transport-system\assets" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e1f5a1c2-0d9a-4dbd-a91c-bdcebddd1222" name="Changes" comment="" />
+      <changelist id="3c1d30c4-0ed1-4dca-903a-36ad825fb0c2" name="Changes" comment="Main Runnable" />
       <created>1667019318637</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667019318637</updated>
       <workItem from="1667019320873" duration="1015000" />
+      <workItem from="1667025842936" duration="633000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1667019954257</created>
