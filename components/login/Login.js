@@ -6,6 +6,7 @@ import style from "./style";
 import { red } from "../../colors/Colors";
 import axios from "axios";
 import Button from "../button/Button";
+import { IP } from "@env";
 
 const Login = (props) => {
   const [username, setUsername] = useState("");
@@ -19,7 +20,7 @@ const Login = (props) => {
       };
 
       await axios
-        .post("http://192.168.221.233:5000/api/login", data)
+        .post(`http://${IP}/api/login`, data)
         .then((result) => {
           console.log("Login: Successfully Logged!");
           ToastAndroid.showWithGravity(
