@@ -5,7 +5,7 @@ const Background = ({children}) => {
     return(
         <View>
             <ImageBackground source={require('../../assets/login-background.jpg')} style={{height: '100%'}}/>
-            <View>
+            <View style={{position:'absolute'}}>
                 {children}
             </View>
         </View>
