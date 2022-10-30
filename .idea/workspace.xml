@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c1d30c4-0ed1-4dca-903a-36ad825fb0c2" name="Changes" comment="Main Runnable">
-      <change afterPath="$PROJECT_DIR$/assets/login-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/background/Background.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/login/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/login/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/login/style.js" afterDir="false" />
-    </list>
+    <list default="true" id="3c1d30c4-0ed1-4dca-903a-36ad825fb0c2" name="Changes" comment="idea" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -24,6 +20,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="ProjectId" id="2GnLHzhTKgPMNuTOZZwvCgLBU9a" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -39,8 +38,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Mern Projects/Bus Ticketing System/Mobile-Application/transport-system/assets",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "last_opened_file_path": "D:/Mern Projects/Bus Ticketing System/Online-Bus-Ticketing-System-Backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\sanka\\AppData\\Roaming\\npm\\node_modules\\prettier",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -58,7 +62,8 @@
       <option name="presentableId" value="Default" />
       <updated>1667019318637</updated>
       <workItem from="1667019320873" duration="1015000" />
-      <workItem from="1667025842936" duration="633000" />
+      <workItem from="1667025842936" duration="17049000" />
+      <workItem from="1667101981631" duration="6394000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1667019954257</created>
@@ -102,7 +107,140 @@
       <option name="project" value="LOCAL" />
       <updated>1667020188687</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Main Runnable">
+      <created>1667026621517</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667026621517</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Login and Register Background">
+      <created>1667026638824</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667026638824</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Implementing Login UI">
+      <created>1667026658643</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667026658643</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Login Background Image">
+      <created>1667026671047</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667026671047</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Login Stylesheet">
+      <created>1667026684358</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667026684358</updated>
+    </task>
+    <task id="LOCAL-00012" summary="idea">
+      <created>1667026694578</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667026694578</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Implementing HomeUI and LoginUI">
+      <created>1667114737545</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1667114737545</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Implementing Background Image Component">
+      <created>1667114761370</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1667114761370</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Implementing Button Component">
+      <created>1667115720400</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667115720400</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Implementing Colors">
+      <created>1667115747508</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1667115747508</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Implementing HomeUI">
+      <created>1667115759886</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1667115759886</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Implementing InputField Component">
+      <created>1667115777951</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1667115777951</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Implementing LoginUI Component">
+      <created>1667115792893</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1667115792893</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Implementing background image">
+      <created>1667115812061</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1667115812061</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Package">
+      <created>1667115845198</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1667115845198</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Package-lock">
+      <created>1667115856804</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1667115856804</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Home Stylesheet implementation">
+      <created>1667115872228</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1667115872228</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Login Stylesheet implementation">
+      <created>1667115888949</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1667115888949</updated>
+    </task>
+    <task id="LOCAL-00025" summary="idea">
+      <created>1667115898478</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1667115898478</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,11 +261,28 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="main runnable" />
     <MESSAGE value="gitignore" />
-    <MESSAGE value="Main Runnable" />
     <MESSAGE value=".idea" />
     <MESSAGE value="package and package-lock" />
     <MESSAGE value="loginUI implementation" />
     <MESSAGE value="loginUI styles implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="loginUI styles implementation" />
+    <MESSAGE value="Main Runnable" />
+    <MESSAGE value="Login and Register Background" />
+    <MESSAGE value="Implementing Login UI" />
+    <MESSAGE value="Login Background Image" />
+    <MESSAGE value="Login Stylesheet" />
+    <MESSAGE value="Implementing HomeUI and LoginUI" />
+    <MESSAGE value="Implementing Background Image Component" />
+    <MESSAGE value="Implementing Button Component" />
+    <MESSAGE value="Implementing Colors" />
+    <MESSAGE value="Implementing HomeUI" />
+    <MESSAGE value="Implementing InputField Component" />
+    <MESSAGE value="Implementing LoginUI Component" />
+    <MESSAGE value="Implementing background image" />
+    <MESSAGE value="Package" />
+    <MESSAGE value="Package-lock" />
+    <MESSAGE value="Home Stylesheet implementation" />
+    <MESSAGE value="Login Stylesheet implementation" />
+    <MESSAGE value="idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="idea" />
   </component>
 </project>
