@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c1d30c4-0ed1-4dca-903a-36ad825fb0c2" name="Changes" comment="idea">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="3c1d30c4-0ed1-4dca-903a-36ad825fb0c2" name="Changes" comment="package">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/login/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Mern Projects/Bus Ticketing System/Online-Bus-Ticketing-System-Backend",
+    "last_opened_file_path": "D:/Mern Projects/Bus Ticketing System/Mobile-Application/transport-system",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -71,7 +65,8 @@
       <updated>1667019318637</updated>
       <workItem from="1667019320873" duration="1015000" />
       <workItem from="1667025842936" duration="17049000" />
-      <workItem from="1667101981631" duration="8854000" />
+      <workItem from="1667101981631" duration="9310000" />
+      <workItem from="1667156676412" duration="943000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1667019954257</created>
@@ -255,7 +250,49 @@
       <option name="project" value="LOCAL" />
       <updated>1667115932534</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="env">
+      <created>1667119648270</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1667119648270</updated>
+    </task>
+    <task id="LOCAL-00028" summary="gitignore">
+      <created>1667119659615</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1667119659615</updated>
+    </task>
+    <task id="LOCAL-00029" summary="babel config">
+      <created>1667119703402</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1667119703402</updated>
+    </task>
+    <task id="LOCAL-00030" summary="login">
+      <created>1667119718414</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1667119718414</updated>
+    </task>
+    <task id="LOCAL-00031" summary="package">
+      <created>1667119788868</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1667119788868</updated>
+    </task>
+    <task id="LOCAL-00032" summary="package">
+      <created>1667119899386</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1667119899386</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,10 +311,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="main runnable" />
-    <MESSAGE value="gitignore" />
-    <MESSAGE value=".idea" />
-    <MESSAGE value="package and package-lock" />
     <MESSAGE value="loginUI implementation" />
     <MESSAGE value="loginUI styles implementation" />
     <MESSAGE value="Main Runnable" />
@@ -298,6 +331,11 @@
     <MESSAGE value="Home Stylesheet implementation" />
     <MESSAGE value="Login Stylesheet implementation" />
     <MESSAGE value="idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="idea" />
+    <MESSAGE value="env" />
+    <MESSAGE value="gitignore" />
+    <MESSAGE value="babel config" />
+    <MESSAGE value="login" />
+    <MESSAGE value="package" />
+    <option name="LAST_COMMIT_MESSAGE" value="package" />
   </component>
 </project>
