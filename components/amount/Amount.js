@@ -7,7 +7,7 @@ import { red } from "../../colors/Colors";
 import Button from "../button/Button";
 import RadioForm from 'react-native-simple-radio-button';
 
-export default function ReactSimpleButton() {
+const ReactSimpleButton = (props) => {
     const [chosenOption, setChosenOption] = useState('Rs.50'); //will store our current user options
     const options = [
       { label: 'Rs.50', value: 'Rs.50' },
@@ -45,7 +45,7 @@ export default function ReactSimpleButton() {
 						BtnLabel="Next"
 						Press={() => {
 							
-							props.navigation.navigate("Amount");
+							props.navigation.navigate("PayMethod");
 						}}
 					/>
      </View>
@@ -53,3 +53,6 @@ export default function ReactSimpleButton() {
 		
     );
   }
+
+  export default ReactSimpleButton;
+
