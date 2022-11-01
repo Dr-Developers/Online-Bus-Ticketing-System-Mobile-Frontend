@@ -9,6 +9,8 @@ import Register from "./components/register/Register";
 import InspectionAdd from "./components/inspection/InspectionAdd";
 import Payment from "./components/payment/Payment";
 import Amount from "./components/amount/Amount";
+import PayMethod from "./components/paymethod/PayMethod";
+import CardDetails from "./components/cardDetails/CardDetails";
 
 const Stack = createNativeStackNavigator();
 
@@ -22,6 +24,8 @@ function App() {
         <Stack.Screen name="InspectionAdd" component={InspectionAdd} />
         <Stack.Screen name="Payment" component={Payment} />
         <Stack.Screen name="Amount" component={Amount} />
+        <Stack.Screen name="PayMethod" component={PayMethod} />
+        <Stack.Screen name="CardDetails" component={CardDetails} />
       </Stack.Navigator>
     </NavigationContainer>
   );
