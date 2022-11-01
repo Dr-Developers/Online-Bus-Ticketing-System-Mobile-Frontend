@@ -11,6 +11,7 @@ import Payment from "./components/payment/Payment";
 import Amount from "./components/amount/Amount";
 import PayMethod from "./components/paymethod/PayMethod";
 import CardDetails from "./components/cardDetails/CardDetails";
+import Scan from "./components/scan/Scan";
 
 const Stack = createNativeStackNavigator();
 
@@ -26,6 +27,7 @@ function App() {
         <Stack.Screen name="Amount" component={Amount} />
         <Stack.Screen name="PayMethod" component={PayMethod} />
         <Stack.Screen name="CardDetails" component={CardDetails} />
+        <Stack.Screen name="Scan" component={Scan} />
       </Stack.Navigator>
     </NavigationContainer>
   );
