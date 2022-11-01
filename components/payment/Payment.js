@@ -25,7 +25,7 @@ const Payment = (props) => {
 					<Button
 						bgColor={red}
 						textColor="white"
-						BtnLabel="ADD"
+						BtnLabel="Add"
 						Press={() => {
 							alert("Card Details Added");
 							props.navigation.navigate("Amount");
