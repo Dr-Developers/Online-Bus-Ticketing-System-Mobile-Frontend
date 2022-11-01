@@ -35,6 +35,12 @@ const Home = (props) => {
           BtnLabel="Payment"
           Press={() => props.navigation.navigate("Payment")}
         />
+        <Button
+          bgColor="white"
+          textColor={red}
+          BtnLabel="Scan"
+          Press={() => props.navigation.navigate("Scan")}
+        />
         
       </View>
     </Background>
