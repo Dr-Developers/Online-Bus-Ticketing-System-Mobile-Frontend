@@ -39,42 +39,69 @@ const Register = (props) => {
 	const [password, setPassword] = useState("");
 	const [type, setType] = useState("");
 
-	console.log("IP: ", IP);
+	const navigate = () => navigation.navigate("Login");
+
 	const onRegister = async () => {
-		try {
-			const data = {
-				name: name,
-				email: email,
-				nicType: NIC,
-				number: number,
-				phoneNumber: phone,
-				username: username,
-				password: password,
-				type: type,
-			};
+		if (
+			name === "" ||
+			email === "" ||
+			number === "" ||
+			phone === "" ||
+			username === "" ||
+			password === "" ||
+			type === ""
+		) {
+			ToastAndroid.showWithGravity(
+				"Register: Fields are Empty",
+				ToastAndroid.SHORT,
+				ToastAndroid.CENTER,
+			);
+		} else {
+			try {
+				const data = {
+					name: name,
+					email: email,
+					nicType: NIC,
+					number: number,
+					phoneNumber: phone,
+					username: username,
+					password: password,
+					type: type,
+				};
 
-			console.log("IP: ", IP);
+				console.log("IP: ", IP);
 
-			await axios
-				.post(`http://${IP}/api/user/add`, data)
-				.then((result) => {
-					console.log("Login: Successfully Registered!");
-					ToastAndroid.showWithGravity(
-						"Login: Successfully Registered!",
-						ToastAndroid.SHORT,
-						ToastAndroid.CENTER,
-					);
-				})
-				.catch((error) => {
-					console.log("Cannot Post Your Request: ", error);
-					ToastAndroid.showWithGravity(
-						"Login: Failed to Register!",
-						ToastAndroid.SHORT,
-						ToastAndroid.CENTER,
-					);
-				});
-		} catch (e) {
-			console.log("Catch Error: ", e);
+				await axios
+					.post(`http://${IP}/api/user/add`, data)
+					.then((result) => {
+						console.log("Register: Successfully Registered!");
+						ToastAndroid.showWithGravity(
+							"Register: Successfully Registered!",
+							ToastAndroid.SHORT,
+							ToastAndroid.CENTER,
+						);
+						setFullName("");
+						setEmail("");
+						setNumber("");
+						setPhone("");
+						setUsername("");
+						setPassword("");
+						setType("");
+						setNICType(-1);
+
+						navigate();
+					})
+					.catch((error) => {
+						console.log("Cannot Post Your Request: ", error);
+						ToastAndroid.showWithGravity(
+							"Register: User Already Exist!",
+							ToastAndroid.SHORT,
+							ToastAndroid.CENTER,
+						);
+					});
+			} catch (e) {
+				console.log("Catch Error: ", e);
+			}
 		}
 	};
 
@@ -86,11 +113,13 @@ const Register = (props) => {
 				<View style={style.registerContainer}>
 					<InputField
 						placeholder="Full Name"
+						value={name}
 						onChangeText={(text) => setFullName(text)}
 					/>
 					<InputField
 						placeholder="Email Address"
 						keyboardType={"email-address"}
+						value={email}
 						onChangeText={(text) => setEmail(text)}
 					/>
 					<View style={style.wrapper}>
@@ -109,23 +138,28 @@ const Register = (props) => {
 					</View>
 					<InputField
 						placeholder="NIC/Passport Number"
+						value={number}
 						onChangeText={(text) => setNumber(text)}
 					/>
 					<InputField
 						placeholder="Phone Number"
+						value={phone}
 						onChangeText={(text) => setPhone(text)}
 					/>
 					<InputField
 						placeholder="Username"
+						value={username}
 						onChangeText={(text) => setUsername(text)}
 					/>
 					<InputField
 						placeholder="Password"
+						value={password}
 						secureTextEntry={true}
 						onChangeText={(text) => setPassword(text)}
 					/>
 					<InputField
 						placeholder="Are you a Passenger/ Driver/ Inspector"
+						value={type}
 						onChangeText={(text) => setType(text)}
 					/>
 
