@@ -23,6 +23,19 @@ const Home = (props) => {
           BtnLabel="Register"
           Press={() => props.navigation.navigate("Register")}
         />
+        <Button
+          bgColor="white"
+          textColor={red}
+          BtnLabel="Inspection"
+          Press={() => props.navigation.navigate("InspectionAdd")}
+        />
+        <Button
+          bgColor="white"
+          textColor={red}
+          BtnLabel="Payment"
+          Press={() => props.navigation.navigate("Payment")}
+        />
+        
       </View>
     </Background>
   );
