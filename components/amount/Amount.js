@@ -44,7 +44,7 @@ export default function ReactSimpleButton() {
 						textColor="white"
 						BtnLabel="Next"
 						Press={() => {
-							alert("Card Details Added");
+							
 							props.navigation.navigate("Amount");
 						}}
 					/>
