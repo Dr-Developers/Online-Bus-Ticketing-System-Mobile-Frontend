@@ -7,7 +7,7 @@ import { red } from "../../colors/Colors";
 import Button from "../button/Button";
 
 const InspectionAdd = (props) => {
-	// 
+	 
 	return (
 		<Background>
 			<View style={style.container}>

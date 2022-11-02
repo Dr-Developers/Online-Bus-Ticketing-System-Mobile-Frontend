@@ -7,28 +7,28 @@ import { red } from "../../colors/Colors";
 import Button from "../button/Button";
 
 const Payment = (props) => {
-	// 
+	
 	return (
 		
 			
 					<View style={style.im}>
 						
-					<ImageBackground source={require('../../assets/travel-card.png')} style={{height: '100%'}}/>
+					<ImageBackground source={require('../../assets/payment.jpg')} style={{height: '100%'}}/>
 					<View style={style.registerContainer}>
-					<Text style={style.heading}>Please Enter The </Text>
-                <Text style={style.heading}>Travel Card Details </Text>
+					<Text style={style.heading}>Please Enter Your </Text>
+                <Text style={style.heading}>Email Address </Text>
 					<InputField
-						placeholder="Card Number"
+						placeholder="Email Address"
 						
 					/>
                     
 					<Button
 						bgColor={red}
 						textColor="white"
-						BtnLabel="Add"
+						BtnLabel="Pay"
 						Press={() => {
-							alert("Card Details Added");
-							props.navigation.navigate("Amount");
+							
+							props.navigation.navigate("CardDetails");
 						}}
 					/>
 					</View>
