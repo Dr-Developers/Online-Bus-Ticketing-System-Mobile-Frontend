@@ -39,7 +39,7 @@ const Register = (props) => {
 	const [password, setPassword] = useState("");
 	const [type, setType] = useState("");
 
-	const navigate = () => navigation.navigate("Login");
+	const navigate = () => props.navigation.navigate("Login");
 
 	const onRegister = async () => {
 		if (
@@ -74,7 +74,6 @@ const Register = (props) => {
 				await axios
 					.post(`http://${IP}/api/user/add`, data)
 					.then((result) => {
-						console.log("Register: Successfully Registered!");
 						ToastAndroid.showWithGravity(
 							"Register: Successfully Registered!",
 							ToastAndroid.SHORT,

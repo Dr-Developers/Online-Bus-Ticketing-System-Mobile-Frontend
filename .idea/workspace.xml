@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c1d30c4-0ed1-4dca-903a-36ad825fb0c2" name="Changes" comment="Workspace">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="3c1d30c4-0ed1-4dca-903a-36ad825fb0c2" name="Changes" comment="Modifying Register Backend Route">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/inputField/InputField.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/inputField/InputField.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/amount/Amount.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/amount/Amount.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/amount/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/amount/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/inspection/InspectionAdd.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/inspection/InspectionAdd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/inspection/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/inspection/style.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/payment/Payment.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/payment/Payment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/payment/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/payment/style.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/register/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/register/Register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/register/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/register/style.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,22 +39,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Mern Projects/Bus Ticketing System/Mobile-Application/transport-system",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\sanka\\AppData\\Roaming\\npm\\node_modules\\prettier",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Mern Projects/Bus Ticketing System/Mobile-Application/transport-system&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\sanka\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Mern Projects\Bus Ticketing System\Mobile-Application\transport-system\assets" />
@@ -72,7 +73,9 @@
       <workItem from="1667101981631" duration="9310000" />
       <workItem from="1667156676412" duration="943000" />
       <workItem from="1667189821798" duration="4195000" />
-      <workItem from="1667283539874" duration="9319000" />
+      <workItem from="1667283539874" duration="14528000" />
+      <workItem from="1667320390036" duration="1200000" />
+      <workItem from="1667402713863" duration="4272000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1667019954257</created>
@@ -333,7 +336,63 @@
       <option name="project" value="LOCAL" />
       <updated>1667190237464</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="env">
+      <created>1667296378761</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1667296378761</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Text input field component implementation">
+      <created>1667296430053</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1667296430053</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Connecting Login with Backend">
+      <created>1667296475230</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1667296475230</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Package-Lock and package">
+      <created>1667296625228</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1667296625228</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Connecting RegisterUI with the backend">
+      <created>1667296769997</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1667296769997</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Register Stylesheet">
+      <created>1667296787344</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1667296787344</updated>
+    </task>
+    <task id="LOCAL-00044" summary="idea">
+      <created>1667296797117</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1667296797117</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Modifying Register Backend Route">
+      <created>1667298444883</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1667298444883</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,12 +411,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Main Runnable" />
-    <MESSAGE value="Login and Register Background" />
-    <MESSAGE value="Implementing Login UI" />
-    <MESSAGE value="Login Background Image" />
-    <MESSAGE value="Login Stylesheet" />
-    <MESSAGE value="Implementing HomeUI and LoginUI" />
     <MESSAGE value="Implementing Background Image Component" />
     <MESSAGE value="Implementing Button Component" />
     <MESSAGE value="Implementing Colors" />
@@ -365,18 +418,24 @@
     <MESSAGE value="Implementing InputField Component" />
     <MESSAGE value="Implementing LoginUI Component" />
     <MESSAGE value="Implementing background image" />
-    <MESSAGE value="Package" />
     <MESSAGE value="Package-lock" />
     <MESSAGE value="Home Stylesheet implementation" />
     <MESSAGE value="Login Stylesheet implementation" />
-    <MESSAGE value="idea" />
     <MESSAGE value="login" />
     <MESSAGE value="package" />
-    <MESSAGE value="env" />
     <MESSAGE value="gitignore" />
     <MESSAGE value="babel config" />
     <MESSAGE value="Background" />
     <MESSAGE value="Workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="Workspace" />
+    <MESSAGE value="env" />
+    <MESSAGE value="Text input field component implementation" />
+    <MESSAGE value="Connecting Login with Backend" />
+    <MESSAGE value="Package" />
+    <MESSAGE value="Package-Lock and package" />
+    <MESSAGE value="Connecting RegisterUI with the backend" />
+    <MESSAGE value="Register Stylesheet" />
+    <MESSAGE value="idea" />
+    <MESSAGE value="Modifying Register Backend Route" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modifying Register Backend Route" />
   </component>
 </project>

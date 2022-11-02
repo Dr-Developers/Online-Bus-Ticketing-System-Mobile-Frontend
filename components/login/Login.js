@@ -19,6 +19,8 @@ const Login = (props) => {
 				password: password,
 			};
 
+			console.log("IP: ", IP);
+
 			await axios
 				.post(`http://${IP}/api/login`, data)
 				.then((result) => {
