@@ -12,6 +12,9 @@ import Amount from "./components/amount/Amount";
 import homeUI from "./components/homeUI/HomeUI";
 import inspectionUpdate from "./components/inspection/InspectionUpdate";
 import inspectionView from "./components/inspection/InspectionView";
+import PayMethod from "./components/paymethod/PayMethod";
+import CardDetails from "./components/cardDetails/CardDetails";
+import Scan from "./components/scan/Scan";
 
 const Stack = createNativeStackNavigator();
 
@@ -40,6 +43,21 @@ function App() {
 			</Stack.Navigator>
 		</NavigationContainer>
 	);
+  return (
+    <NavigationContainer>
+      <Stack.Navigator screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="Home" component={Home} />
+        <Stack.Screen name="Login" component={Login} />
+        <Stack.Screen name="Register" component={Register} />
+        <Stack.Screen name="InspectionAdd" component={InspectionAdd} />
+        <Stack.Screen name="Payment" component={Payment} />
+        <Stack.Screen name="Amount" component={Amount} />
+        <Stack.Screen name="PayMethod" component={PayMethod} />
+        <Stack.Screen name="CardDetails" component={CardDetails} />
+        <Stack.Screen name="Scan" component={Scan} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
 }
 
 export default App;

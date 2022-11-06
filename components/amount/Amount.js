@@ -7,6 +7,7 @@ import { red } from "../../colors/Colors";
 import Button from "../button/Button";
 import RadioForm from "react-native-simple-radio-button";
 
+
 export default function ReactSimpleButton() {
 	const [chosenOption, setChosenOption] = useState("Rs.50"); //will store our current user options
 	const options = [
@@ -46,3 +47,4 @@ export default function ReactSimpleButton() {
 		//   </View>
 	);
 }
+
