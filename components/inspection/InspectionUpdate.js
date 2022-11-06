@@ -7,17 +7,30 @@ import { red } from "../../colors/Colors";
 import Button from "../button/Button";
 import { IP } from "@env";
 import axios from "axios";
+import { useRoute } from "@react-navigation/native";
 
-const InspectionAdd = (props) => {
-	const [routeID, setRouteID] = useState("");
-	const [time, setTime] = useState("");
-	const [date, setDate] = useState("");
-	const [insName, setInsName] = useState("");
-	const [inq, setInq] = useState("");
+const InspectionUpdate = (props) => {
+	const route = useRoute();
+
+	let inspectionID = route.params.InspectionID;
+	let Route = route.params.Route;
+	let Date = route.params.Date;
+	let Time = route.params.Time;
+	let InsName = route.params.InspectorName;
+	let Inq = route.params.Inquire;
+	let Id = route.params.Id;
+
+	const [routeID, setRouteID] = useState(Route);
+	const [time, setTime] = useState(Time);
+	const [date, setDate] = useState(Date);
+	const [insName, setInsName] = useState(InsName);
+	const [inq, setInq] = useState(Inq);
+
+	console.log(Id);
 
 	const navigate = () => props.navigation.navigate("InspectionView");
 
-	const onSubmit = async () => {
+	const onUpdate = async () => {
 		if (
 			routeID === "" ||
 			time === "" ||
@@ -42,34 +55,42 @@ const InspectionAdd = (props) => {
 
 				console.log("IP: ", IP);
 
-				await axios
-					.post(
-						`http://172.28.30.78:5000/api/inspection/add`,
-						data,
-					)
-					.then((result) => {
-						ToastAndroid.showWithGravity(
-							"Inspection: Successfully Added!",
-							ToastAndroid.SHORT,
-							ToastAndroid.CENTER,
-						);
-						// setRouteID("");
-						// setTime("");
-						// setDate("");
-						// setInsName("");
-						// setInq("");
-						navigate();
-					})
-					.catch((error) => {
-						console.log("Cannot Post Your Request: ", error);
-						ToastAndroid.showWithGravity(
-							"Inspection: Failed to Add!",
-							ToastAndroid.SHORT,
-							ToastAndroid.CENTER,
-						);
-					});
+				try {
+					await axios
+						.put(
+							"http://172.28.30.78:5000/api/inspection/update/" +
+								Id,
+							data,
+						)
+						.then((result) => {
+							ToastAndroid.showWithGravity(
+								"Inspection: Successfully Updated!",
+								ToastAndroid.SHORT,
+								ToastAndroid.CENTER,
+							);
+							setRouteID("");
+							setTime("");
+							setDate("");
+							setInsName("");
+							setInq("");
+							navigate();
+						})
+						.catch((error) => {
+							console.log(
+								"Cannot Post Your Request: ",
+								error,
+							);
+							ToastAndroid.showWithGravity(
+								"Inspection: Failed to Add!",
+								ToastAndroid.SHORT,
+								ToastAndroid.CENTER,
+							);
+						});
+				} catch (e) {
+					console.log("Catch Error: ", e);
+				}
 			} catch (e) {
-				console.log("Catch Error: ", e);
+				console.log("error: ", e);
 			}
 		}
 	};
@@ -77,12 +98,13 @@ const InspectionAdd = (props) => {
 	return (
 		<Background>
 			<View style={style.container}>
-				<Text style={style.registry_1}>Add</Text>
-				<Text style={style.registry}>New Inspection</Text>
+				<Text style={style.registry_1}>Update</Text>
+				<Text style={style.registry}>Inspections</Text>
 
 				<View style={style.registerContainer}>
 					<InputField
-						value={routeID}
+						editable={false}
+						value={Route}
 						placeholder="Route ID"
 						onChangeText={(text) => setRouteID(text)}
 					/>
@@ -112,8 +134,8 @@ const InspectionAdd = (props) => {
 					<Button
 						bgColor={red}
 						textColor="white"
-						BtnLabel="Submit"
-						Press={onSubmit}
+						BtnLabel="Update Inspection"
+						Press={onUpdate}
 					/>
 
 					<Text style={style.account}></Text>
@@ -123,4 +145,4 @@ const InspectionAdd = (props) => {
 	);
 };
 
-export default InspectionAdd;
+export default InspectionUpdate;
