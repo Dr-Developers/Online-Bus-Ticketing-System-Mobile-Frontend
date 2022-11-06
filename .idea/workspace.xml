@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c1d30c4-0ed1-4dca-903a-36ad825fb0c2" name="Changes" comment="Modifying Register Backend Route">
+    <list default="true" id="3c1d30c4-0ed1-4dca-903a-36ad825fb0c2" name="Changes" comment="Modifying files">
+      <change afterPath="$PROJECT_DIR$/assets/inspection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/pay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/qr-code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/qr-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/homeUI/HomeUI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/homeUI/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/inspection/InspectionUpdate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/inspection/InspectionView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pic2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/amount/Amount.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/amount/Amount.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/amount/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/amount/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/inspection/InspectionAdd.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/inspection/InspectionAdd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/inspection/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/inspection/style.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/login/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/payment/Payment.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/payment/Payment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/payment/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/payment/style.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/register/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/register/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,25 +47,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Mern Projects/Bus Ticketing System/Mobile-Application/transport-system&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\sanka\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
-    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Mern Projects/Bus Ticketing System/Mobile-Application/transport-system/assets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\sanka\\AppData\\Roaming\\npm\\node_modules\\prettier",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Mern Projects\Bus Ticketing System\Mobile-Application\transport-system\assets" />
+      <recent name="D:\Mern Projects\Bus Ticketing System\Mobile-Application\transport-system\images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -75,7 +84,10 @@
       <workItem from="1667189821798" duration="4195000" />
       <workItem from="1667283539874" duration="14528000" />
       <workItem from="1667320390036" duration="1200000" />
-      <workItem from="1667402713863" duration="4272000" />
+      <workItem from="1667402713863" duration="4367000" />
+      <workItem from="1667407382362" duration="235000" />
+      <workItem from="1667626809422" duration="5178000" />
+      <workItem from="1667709696179" duration="12106000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1667019954257</created>
@@ -392,7 +404,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667298444883</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Connecting Inspection add with backend">
+      <created>1667407174743</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1667407174743</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Modifying files">
+      <created>1667407192133</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1667407192133</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,8 +437,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Implementing Background Image Component" />
-    <MESSAGE value="Implementing Button Component" />
     <MESSAGE value="Implementing Colors" />
     <MESSAGE value="Implementing HomeUI" />
     <MESSAGE value="Implementing InputField Component" />
@@ -436,6 +460,8 @@
     <MESSAGE value="Register Stylesheet" />
     <MESSAGE value="idea" />
     <MESSAGE value="Modifying Register Backend Route" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modifying Register Backend Route" />
+    <MESSAGE value="Connecting Inspection add with backend" />
+    <MESSAGE value="Modifying files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modifying files" />
   </component>
 </project>

@@ -9,22 +9,37 @@ import Register from "./components/register/Register";
 import InspectionAdd from "./components/inspection/InspectionAdd";
 import Payment from "./components/payment/Payment";
 import Amount from "./components/amount/Amount";
+import homeUI from "./components/homeUI/HomeUI";
+import inspectionUpdate from "./components/inspection/InspectionUpdate";
+import inspectionView from "./components/inspection/InspectionView";
 
 const Stack = createNativeStackNavigator();
 
 function App() {
-  return (
-    <NavigationContainer>
-      <Stack.Navigator screenOptions={{ headerShown: false }}>
-        <Stack.Screen name="Home" component={Home} />
-        <Stack.Screen name="Login" component={Login} />
-        <Stack.Screen name="Register" component={Register} />
-        <Stack.Screen name="InspectionAdd" component={InspectionAdd} />
-        <Stack.Screen name="Payment" component={Payment} />
-        <Stack.Screen name="Amount" component={Amount} />
-      </Stack.Navigator>
-    </NavigationContainer>
-  );
+	return (
+		<NavigationContainer>
+			<Stack.Navigator screenOptions={{ headerShown: false }}>
+				<Stack.Screen name="Home" component={Home} />
+				<Stack.Screen name="Login" component={Login} />
+				<Stack.Screen name="Register" component={Register} />
+				<Stack.Screen
+					name="InspectionAdd"
+					component={InspectionAdd}
+				/>
+				<Stack.Screen name="Payment" component={Payment} />
+				<Stack.Screen name="Amount" component={Amount} />
+				<Stack.Screen name="HomeUI" component={homeUI} />
+				<Stack.Screen
+					name="InspectionUpdate"
+					component={inspectionUpdate}
+				/>
+				<Stack.Screen
+					name="InspectionView"
+					component={inspectionView}
+				/>
+			</Stack.Navigator>
+		</NavigationContainer>
+	);
 }
 
 export default App;

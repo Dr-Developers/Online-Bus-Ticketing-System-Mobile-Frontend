@@ -12,6 +12,8 @@ const Login = (props) => {
 	const [username, setUsername] = useState("");
 	const [password, setPassword] = useState("");
 
+	const navigateHome = () => props.navigation.navigate("HomeUI");
+
 	const onLogin = async () => {
 		try {
 			const data = {
@@ -30,6 +32,7 @@ const Login = (props) => {
 						ToastAndroid.SHORT,
 						ToastAndroid.CENTER,
 					);
+					navigateHome();
 				})
 				.catch((error) => {
 					console.log("Cannot Post Your Request: ", error);
